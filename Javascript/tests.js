@@ -1,31 +1,18 @@
-// Funzioni di test.
-// Queste funzioni vengono utilizzate per scrivere i testt in "./test.js".
+// Carica le classi di parole:
+const Noun = require('./Noun.js');
 
-// Stampa la descrizione del testt sul terminale.
-const describeTest = (testDescription) => { console.log(testDescription) }
+// Carica i moduli di test:
+const { isTypeCorrect, describeTest, verifyExistence } = require('./tester.js');
 
-// Restituisce true se il tipo del soggetto corrisponde al tipo di aspettativa. Restituisce false se non corrispondono.
-const isTypeCorrect = function(subject, expectation) {
-  subjectType = typeof subject;
-  expectationType = typeof expectation;
-  if (expectation === subjectType) {
-    return true;
-  } else {
-    return false;
-  }
-}
 
-// Restituisce vero se l'oggetto esiste.
-const verifyExistence = function(object) {
-  if (!object) {
-    return false
-  } else if (object) {
-    return true
-  }
-}
+// TESTS
 
-module.exports = {
-  describeTest,
-  isTypeCorrect,
-  verifyExistence
-};
+// Noun class:
+  describeTest("Noun class should exist and be a function:");
+  var result = isTypeCorrect(Noun, "function");
+  console.log('Result is:  ' + result);
+
+  describeTest("An instance of a Noun can be created:");
+  const word = new Noun("NounName");
+  var result = verifyExistence(word);
+  console.log('Result is:  ' + result);
