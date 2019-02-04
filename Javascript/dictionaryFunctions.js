@@ -4,6 +4,7 @@
 // Noun factory
   // To create a noun:
   // let newDictionaryWord = nounFactory("book", "books", Pages of a document, or documents, that are bound together.", "masculine", "libbru", "libbri", "Pagine di un documentu, o ducunmenti, chi sunnu fazzo nzemmula.", "maschili");
+  // dictionary.push(newDictionaryWord)
 
 const nounFactory = (englishName, englishDescription, englishGender, englishPlural, sicilianName, sicilianPlural, sicilianDescription, sicilianGender) => {
   return {
