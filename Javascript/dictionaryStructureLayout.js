@@ -1,24 +1,3 @@
-// Noun factory
-  // To create a noun:
-  // let newDictionaryWord = nounFactory("book", "Pages of a document, or documents, that are bound together.", "masculine", "libbru", "Pagine di un documentu, o ducunmenti, chi sunnu fazzo nzemmula.", "maschili");
-
-const nounFactory = (englishName, englishDescription, englishGender, sicilianName, sicilianDescription, sicilianGender) => {
-  return {
-    type: "noun",
-    english: {
-      name: englishName,
-      description: englishDescription,
-      gender: englishGender
-    },
-    sicilian: {
-      name: sicilianName,
-      description: sicilianDescription,
-      gender: sicilianGender
-    }
-  }
-}
-
-
 // Dictionary structure
 
 const dictionary = [
@@ -27,17 +6,19 @@ const dictionary = [
     type: "noun",
     english: {
       name: "book",
+      plural: "libbri",
       description: "Pages of a document, or documents, that are bound together.",
       gender: "masculine"
     },
     sicilian: {
-      dame: "libbru",
+      name: "libbru",
+      plural: "libri",
       description: "Pagine di un documentu, o ducunmenti, chi sunnu fazzo nzemmula.",
       gender: "maschili"
     }
   },
   // Verb types:
-  word3: {
+  word2: {
     type: "verb",
     english: {
       name: "read",
@@ -73,12 +54,6 @@ const dictionary = [
     }
   }
 ];
-
-//  let prompt = "_____"
-//  let word = dictionary.word3;
-//  let answer = word3.sicilian.conjugate.iddra;
-//  let question = "Iddra un " + prompt + " nenti.";
-//  console.log(question);
 
 // -------------------------------------------------------------------
 
