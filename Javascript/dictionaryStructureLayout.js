@@ -29,10 +29,10 @@ const dictionary = [
 
 // A program could load a word to test the user on:
 // $  let testWord = dictionary.word1;
-//  console.log('Translate this word: ' + testWord.english.englishName);
+//  console.log('Translate this word: ' + testWord.sicilian.sicilianName);
 
 // A program could generate a question for the user:
-// $  let testAnswer = translateThisWord(testWord, 'english');
+// $  let testAnswer = translateThisWordFrom(testWord, 'sicilian');
 // const translateThisWord(word, testLanguage) {
 //   if (testLanguage === 'english') {
 //     return word.sicilian.sicilianName;
