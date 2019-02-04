@@ -19,12 +19,36 @@ const dictionary = [
   word 3: {
     type: "verb",
     english: {
-      name: "run",
-      description: "Faster than walking."
+      name: "read",
+      description: "Understanding words on a page.",
+      conjugation: {
+        present: {
+          i: "read",
+          you: "read",
+          he: "reads",
+          she: "reads",
+          they: "read",
+          we: "read",
+          youPlural: "read"
+        }
+      }
     },
     sicilian: {
-      name: "correre",
-      description: "Chiù rapidemente di caminare."
+      name: "lèggiri",
+      description: "Capisciri parole supra na folla.",
+      conjugation: {
+        present: {
+          iu: "leggiu",
+          tu: "leggi",
+          iddu: "leggi",
+          idda: "leggi",
+          iddi: "lèggiunu",
+          nui: "liggemu",
+          vui: "liggiti",
+          vossia: "leggi",
+          lei: "leggi"
+        }
+      }
     }
   }
 ];
