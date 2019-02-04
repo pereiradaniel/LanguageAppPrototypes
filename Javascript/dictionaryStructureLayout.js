@@ -1,80 +1,60 @@
+// Symbols used to 
+
 const dictionary = [
+  // Noun types:
   word1: {
     type: "noun",
     english: {
-      englishName: "name",
-      englishDescription: "description"
+      name: "book",
+      description: "Pages of a document, or documents, that are bound together.",
+      gender: "masculine"
     },
     sicilian: {
-      sicilianName: "name",
-      sicilianDescription: "descrizione"
+      dame: "libbru",
+      description: "Pagine di un documentu, o ducunmenti, chi sunnu fazzo nzemmula.",
+      gender: "maschili"
     }
   },
-
-  word2: {
-    type: "noun",
+  // Verb types:
+  word 3: {
+    type: "verb",
     english: {
-      englishName: "name",
-      englishDescription: "description"
+      name: "run",
+      description: "Faster than walking."
     },
     sicilian: {
-      sicilianName: "name",
-      sicilianDescription: "descrizione"
+      name: "correre",
+      description: "Chiù rapidemente di caminare."
     }
   }
 ];
 
-// Access a word's English name property:
-//  dictionary.word1.english.englishName;
 
-// A program could load a word to test the user on:
-// $  let testWord = dictionary.word1;
-//  console.log('Translate this word: ' + testWord.sicilian.sicilianName);
+// Programming notes
 
-// A program could generate a question for the user:
-// $  let testAnswer = translateThisWordFrom(testWord, 'sicilian');
-// const translateThisWord(word, testLanguage) {
-//   if (testLanguage === 'english') {
-//     return word.sicilian.sicilianName;
-//   } else {
-//     return word.english.englishName;
-//   }
-// }
+  // Access a word's English name property:
+  //  dictionary.word1.english.name;
 
-// A program could check user input and compare it with the correct answer:
-//  $  isUserCorrect(testWord, testAnswer, userInput);
-//  const checkAnswer = function(word, correctAnswer, userResponse) {
-//    if (userResponse === correctAnswer) {
-//      return true;
-//    } else {
-//      return false;
-//    }
-//  }
+  // A program could load a word to test the user on:
+  // $  let testWord = dictionary.word1;
+  //  console.log('Translate this word: ' + testWord.sicilian.name);
 
+  // A program could generate a question for the user:
+  // $  let testAnswer = translateThisWordFrom(testWord, 'sicilian');
+  // const translateThisWord(word, testLanguage) {
+  //   if (testLanguage === 'english') {
+  //     return word.sicilian.name;
+  //   } else {
+  //     return word.english.name;
+  //   }
+  // }
 
-
-
-
-// Noun Object
-// const createNewNoun = function(noun) {
-//   var object = {};
-//   object = noun;
-//   return object;
-// }
-
-// console.log(dictionary);
-
-
-
-// var nounObj = {
-//   english: {
-//     englishName: "name",
-//     englishDescription: "description"
-//   },
-//   sicilian: {
-//     sicilianName: "nome",
-//     sicilianDescription: "descrizione"
-//   }
-// }
-
-
+  // A program could check user input and compare it with the correct answer:
+  //  $  isUserCorrect(testWord, testAnswer, userInput);
+  //  const checkAnswer = function(word, correctAnswer, userResponse) {
+  //    if (userResponse === correctAnswer) {
+  //      return true;
+  //    } else {
+  //      return false;
+  //    }
+  //  }
