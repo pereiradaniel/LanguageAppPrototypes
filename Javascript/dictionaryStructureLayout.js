@@ -16,12 +16,12 @@ const dictionary = [
     }
   },
   // Verb types:
-  word 3: {
+  word3: {
     type: "verb",
     english: {
       name: "read",
       description: "Understanding words on a page.",
-      conjugation: {
+      conjugate: {
         present: {
           i: "read",
           you: "read",
@@ -36,15 +36,15 @@ const dictionary = [
     sicilian: {
       name: "lèggiri",
       description: "Capisciri parole supra na folla.",
-      conjugation: {
+      conjugate: {
         present: {
           iu: "leggiu",
           tu: "leggi",
-          iddu: "leggi",
-          idda: "leggi",
-          iddi: "lèggiunu",
-          nui: "liggemu",
-          vui: "liggiti",
+          iddru: "leggi",
+          iddra: "leggi",
+          iddri: "lèggiunu",
+          nautri: "liggemu",
+          vuatri: "liggiti",
           vossia: "leggi",
           lei: "leggi"
         }
@@ -52,6 +52,14 @@ const dictionary = [
     }
   }
 ];
+
+//  let prompt = "_____"
+//  let word = dictionary.word3;
+//  let answer = word3.sicilian.conjugate.iddra;
+//  let question = "Iddra un " + prompt + " nenti.";
+//  console.log(question);
+
+// -------------------------------------------------------------------
 
 
 // Programming notes
