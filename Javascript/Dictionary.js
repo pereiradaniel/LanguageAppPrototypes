@@ -64,13 +64,16 @@ module.exports = Dictionary;
 // Programming notes
 
   // Access a word's English name property:
-  //  dictionary.word1.english.name;
+  // Accedi alla proprietà del nome inglese di una parola:
+    //  dictionary.word1.english.name;
 
   // A program could load a word to test the user on:
+  // Un programma potrebbe caricare una parola su cui testare l'utente:
   // $  let testWord = dictionary.word1;
   //  console.log('Translate this word: ' + testWord.sicilian.name);
 
   // A program could generate a question for the user:
+  // Un programma potrebbe generare una domanda per l'utente:
   // $  let testAnswer = translateThisWordFrom(testWord, 'sicilian');
   // const translateThisWord(word, testLanguage) {
   //   if (testLanguage === 'english') {
@@ -81,6 +84,7 @@ module.exports = Dictionary;
   // }
 
   // A program could check user input and compare it with the correct answer:
+  // Un programma potrebbe controllare ciò che ha inserito l'utente e confrontarlo con la risposta corretta:
   //  $  isUserCorrect(testWord, testAnswer, userInput);
   //  const checkAnswer = function(word, correctAnswer, userResponse) {
   //    if (userResponse === correctAnswer) {
@@ -89,7 +93,6 @@ module.exports = Dictionary;
   //      return false;
   //    }
   //  }
-
 
 // Considerations
 
