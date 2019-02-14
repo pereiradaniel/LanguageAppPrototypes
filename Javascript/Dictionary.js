@@ -1,63 +1,63 @@
-const Dictionary = {};
-module.exports = Dictionary;
+// const Dictionary = {};
 
 // Dictionary structure
 
-  // const Dictionary = {
-  //   // Noun types:
-  //   word1: {
-  //     type: "noun",
-  //     english: {
-  //       name: "book",
-  //       plural: "libbri",
-  //       description: "Pages of a document, or documents, that are bound together.",
-  //       gender: "masculine"
-  //     },
-  //     sicilian: {
-  //       name: "libbru",
-  //       plural: "libri",
-  //       description: "Pagine di un documentu, o ducunmenti, chi sunnu fazzo nzemmula.",
-  //       gender: "maschili"
-  //     }
-  //   },
-  //   // Verb types:
-  //   word2: {
-  //     type: "verb",
-  //     english: {
-  //       name: "read",
-  //       description: "Understanding words on a page.",
-  //       conjugate: {
-  //         present: {
-  //           i: "read",
-  //           you: "read",
-  //           he: "reads",
-  //           she: "reads",
-  //           they: "read",
-  //           we: "read",
-  //           youPlural: "read"
-  //         }
-  //       }
-  //     },
-  //     sicilian: {
-  //       name: "lèggiri",
-  //       description: "Capisciri parole supra na folla.",
-  //       conjugate: {
-  //         present: {
-  //           iu: "leggiu",
-  //           tu: "leggi",
-  //           iddru: "leggi",
-  //           iddra: "leggi",
-  //           iddri: "lèggiunu",
-  //           nautri: "liggemu",
-  //           vuatri: "liggiti",
-  //           vossia: "leggi",
-  //           lei: "leggi"
-  //         }
-  //       }
-  //     }
-  //   }
-  // };
+  const Dictionary = {
+    // Noun types:
+    word1: {
+      type: "noun",
+      english: {
+        name: "book",
+        plural: "books",
+        description: "Pages of a document, or documents, that are bound together.",
+        gender: "masculine"
+      },
+      sicilian: {
+        name: "libbru",
+        plural: "libri",
+        description: "Pagine di un documentu, o ducunmenti, chi sunnu fazzo nzemmula.",
+        gender: "maschili"
+      }
+    },
+    // Verb types:
+    word2: {
+      type: "verb",
+      english: {
+        name: "read",
+        description: "Understanding words on a page.",
+        conjugate: {
+          present: {
+            i: "read",
+            you: "read",
+            he: "reads",
+            she: "reads",
+            they: "read",
+            we: "read",
+            youPlural: "read"
+          }
+        }
+      },
+      sicilian: {
+        name: "lèggiri",
+        description: "Capisciri parole supra na folla.",
+        conjugate: {
+          present: {
+            iu: "leggiu",
+            tu: "leggi",
+            iddru: "leggi",
+            iddra: "leggi",
+            iddri: "lèggiunu",
+            nautri: "liggemu",
+            vuatri: "liggiti",
+            vossia: "leggi",
+            lei: "leggi"
+          }
+        }
+      }
+    }
+  };
 
+module.exports = Dictionary;
 // -------------------------------------------------------------------
 
 

@@ -2,7 +2,7 @@
 const { isTypeCorrect, describeTest, verifyExistence } = require('./tester.js');
 
 // Carica il dizionario:
-const { Dictionary } = require('./Dictionary.js');
+const Dictionary = require('./Dictionary.js');
 
 // Carica le funzione del dictionario:
 const { nounFactory } = require('./dictionaryFunctions.js');
@@ -13,7 +13,7 @@ const { nounFactory } = require('./dictionaryFunctions.js');
   // - Dictionary exists.
   describeTest("Does dictionary exist?");
   const result = verifyExistence(Dictionary);
-  console.log(typeof Dictionary);
+  console.log(Dictionary);
   if (result === true) {
     console.log("Inside true loop");
     console.log("✓ Dictionary exists.");
