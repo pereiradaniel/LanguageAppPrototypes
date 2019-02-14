@@ -11,41 +11,22 @@ const { nounFactory } = require('./dictionaryFunctions.js');
 
 // TESTS
   // - Dictionary exists.
+  // - Il dizionario esiste.
   describeTest("Does dictionary exist?");
   const result = verifyExistence(Dictionary);
-  console.log(Dictionary);
   if (result === true) {
-    console.log("Inside true loop");
     console.log("✓ Dictionary exists.");
     console.log(result);
   } else if (result === false) {
-    console.log("Inside false loop");
     console.log("✗ Dictionary does not exist!");
     console.log(result);
   } else {
-    console.log("ERROR!");
+    console.log("TEST ERROR!");
   }
+
   // - Dictionary contents can be output on the screen.
+  // - I contenuti del dizionario possono essere visualizzati sullo schermo.
   // - Can add a word to the dictionary.
+  // - Può aggiungere una parola al dizionario.
   // - Can find a word in the dictionary.
-
-  // DEPRECATO!
-
-    // This must change to reflect that nouns are objects.
-
-    // OLD TESTS
-    // // Noun class:
-    //   describeTest("Noun class should exist and be a function:");
-    //   var result = isTypeCorrect(Noun, "function");
-    //   console.log('Result is:  ' + result);
-
-    //   describeTest("An instance of a Noun can be created:");
-    //   const word = new Noun("NounName");
-    //   var result = verifyExistence(word);
-    //   console.log('Result is:  ' + result);
-
-    // NEW TESTS TO WRITE:
-    //  nounFactory:
-    //  - nounFactory exists and is a function
-    //  - nounFactory returns a noun object, or an error when creation fails due to:
-    //    - Missing parameters
+  // - Puoi trovare una parola nel dizionario.
