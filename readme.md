@@ -1,5 +1,11 @@
-# Javascript Language and Testing Framework
+# LanguageBuilder Prototipo
 
-Questa cartella contiene un framework sperimentale per un'applicazione di traduzione linguistica. C'è un framework di test in "./tester.js".
 
-_*Daniele*_
+## Descrizione
+Chistu app è pi 'mparari lu sicilianu.
+
+
+## Note
+Vogghiu fare commenti in italiano e inglisi picchi parru inglisi e vogghiu ca italiani ponnu svillupari cu mia.  Un parru sicilianu bene, e un pozzu parrari italiano pi nenti!  
+
+_*Daniele Paulo Grech Pereira*_
