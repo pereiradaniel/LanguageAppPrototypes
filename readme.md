@@ -1,5 +1,5 @@
-# LanguageApp Prototypes
+# Javascript Language and Testing Framework
 
-Questi file sono sperimentali. Sono prototipi di LanguageApp, una piattaforma di corsi di lingua.
+Questa cartella contiene un framework sperimentale per un'applicazione di traduzione linguistica. C'è un framework di test in "./tester.js".
 
 _*Daniele*_

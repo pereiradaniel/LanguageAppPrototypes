@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "Daniele Grech",
+  "author": "Daniele Paulo Grech Pereira",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
